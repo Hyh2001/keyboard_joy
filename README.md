@@ -3,8 +3,6 @@
 
 `keyboard_joy` is a ROS2 package that allows you to simulate joystick input using your keyboard. This is particularly useful for testing and development when a physical joystick is not available.
 
-Tested on ROS2 Humble.
-
 ## Installation
 
 1. **Install ROS2**: Follow the official ROS2 installation guide for your operating system.
@@ -93,3 +91,6 @@ buttons:
   '2': 2 
   '3': 3 
 ```
+
+### Acknowledgement 
+This package is cloned and expanded from `atarbabgei`'s under the same name [keyboard_joy](https://github.com/atarbabgei/keyboard_joy/tree/main). Thanks for open sourcing this convenient package!
