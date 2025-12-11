@@ -24,7 +24,7 @@ setup(
     maintainer_email='atarbabgei@gmail.com',
     description='A ROS 2 package to simulate joystick inputs with a keyboard.',
     license='MIT',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'joy_node = keyboard_joy.joy_node:main', 
